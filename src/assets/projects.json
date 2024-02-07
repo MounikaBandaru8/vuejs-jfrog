@@ -1,0 +1,608 @@
+[
+	{
+		"id": "discordbot",
+		"title": "Discord Bots",
+		"description": "Multi-domain Discord bots for community support, engagement, and monitoring",
+		"description_long": "Custom bots are very useful and fun for online communities and I'm doing the best I can to support the ones I am a part of.<br>These bots can stream messages from and to other community hangouts to and from Discord, easily query APIs, and do calculations (very handy for time-zone conversion for scheduling), handle reminders, automatically assign roles and permissions for both fun and aid in moderation, and much more.",
+		"icons": ["discord", "python", "nodejs", "typescript", "twitter", "docker"],
+		"color": "162, 159, 227",
+		"images": [
+			{ "file": "minecraft.png", "caption": "Minecraft Chat Synchronization" },
+			{ "file": "music.png", "caption": "Live Music Streaming" },
+			{ "file": "roll.png", "caption": "Misc Fun" },
+			{ "file": "twitter.png", "caption": "Twitter API" },
+			{ "file": "roles.png", "caption": "Automatic Role Assignments" },
+			{ "file": "gameplay.png", "caption": "Gameplay Support" }
+		],
+		"technologies": [
+			{
+				"name": "Docker",
+				"url": "https://www.docker.com",
+				"explanation": "For containerization"
+			},
+			{
+				"name": "disord.py",
+				"url": "https://discordpy.readthedocs.io/en/stable/",
+				"explanation": "Discord API wrapper for Python"
+			},
+			{
+				"name": "Red Discord Bot",
+				"url": "https://github.com/Cog-Creators/Red-DiscordBot",
+				"explanation": "Modular Discord Bot framework in Python"
+			},
+			{
+				"name": "DiscordSRV",
+				"url": "https://www.spigotmc.org/resources/discordsrv.18494/",
+				"explanation": "Minecraft ⇔ Discord chat synchronization"
+			},
+			{
+				"name": "Node.js",
+				"url": "https://nodejs.org/en/",
+				"explanation": "Runtime for JavaScript/Typescript parts"
+			},
+			{
+				"name": "discord.js",
+				"url": "https://discord.js.org/",
+				"explanation": "Discord API wrapper for JS/TS"
+			},
+			{
+				"name": "Akairo",
+				"url": "https://discord-akairo.github.io/#/",
+				"explanation": "Discord Bot framework for discord.js"
+			},
+			{
+				"name": "Miscellaneous APIs",
+				"url": "",
+				"explanation": "[Twitter](https://developer.twitter.com/en/docs/twitter-api), [Twitch](https://dev.twitch.tv/docs/api/), [Wolfram Alpha](https://products.wolframalpha.com/api/), [Minecraft](https://wiki.vg/Mojang_API), [YOURLS](https://yourls.org) ([custom URL shortener](/projects/yourls)), [Wikipedia](https://www.mediawiki.org/wiki/API)"
+			}
+		]
+	},
+	{
+		"id": "minecraft",
+		"title": "Minecraft Servers",
+		"description": "Hosting, management, and configuration of community-oriented Minecraft servers",
+		"description_long": "I'm hosting and managing multiple Minecraft servers for my communities to hang out on. These are the main reason for me to rent two root servers that I completely set up and maintain myself.<br>The Minecraft servers are set up in a wide variety of modes: strict vanilla gameplay, creative, and project-based build servers, and special event mod packs, and pure fantasy roleplay servers. Almost all of those use different mods and plugins, but [Multicraft](https://www.multicraft.org) helps enormously with the back-end management.",
+		"icons": ["docker", "minecraft", "cloudflare", "java"],
+		"color": "90, 154, 48",
+		"images": [
+			{ "file": "multicraft.png", "caption": "Multicraft Web Interface" },
+			{ "file": "doc.png", "caption": "" },
+			{ "file": "mirrorpark.png", "caption": "" },
+			{ "file": "juliusbaer.png", "caption": "" }
+		],
+		"technologies": [
+			{
+				"name": "Docker",
+				"url": "https://www.docker.com",
+				"explanation": "For containerization"
+			},
+			{
+				"name": "Multicraft",
+				"url": "https://www.multicraft.org",
+				"explanation": "Server management web interface"
+			},
+			{
+				"name": "Cloudflare",
+				"url": "https://www.cloudflare.com",
+				"explanation": "Subdomain DNS management"
+			},
+			{
+				"name": "itzg's Dockerized Minecraft Server",
+				"url": "https://github.com/itzg/docker-minecraft-server",
+				"explanation": "Really simple Minecraft server setup for testing and events"
+			},
+			{
+				"name": "Apache",
+				"url": "https://httpd.apache.org/",
+				"explanation": "Used to serve files over http (World downloads, custom resource packs, etc.)"
+			}
+		]
+	},
+	{
+		"id": "sneakyrp",
+		"title": "SneakyRP Roleplay Server",
+		"description": "Minecraft environment for teaching about inclusive and relationship-first roleplay",
+		"description_long": "I'm working with a team on this project is about fostering a community by teaching conflict-free roleplay with a focus on building relationships with the humans behind the characters.<br>We're using a custom modpack that's configured to maximize roleplay and social interactions with deep character customization, custom items, abilities, animations, and more.",
+		"icons": ["minecraft", "discord", "java", "docker", "wikijs", "mumble"],
+		"color": "255, 201, 81",
+		"images": [
+			{ "file": "sneakyrp.png", "caption": "In-game screenshot" },
+			{ "file": "emotes.gif", "caption": "Custom emotes and animations" }
+		],
+		"technologies": [
+			{
+				"name": "Multicraft",
+				"url": "https://www.multicraft.org",
+				"explanation": "Server management web interface with access management and permissions"
+			},
+			{
+				"name": "Discord",
+				"url": "https://discord.gg/",
+				"explanation": "For community management and communication"
+			},
+			{
+				"name": "Java",
+				"url": "https://www.java.com",
+				"explanation": "Development of custom Minecraft plugins in Java"
+			},
+			{
+				"name": "Docker",
+				"url": "https://www.docker.com",
+				"explanation": "For containerization"
+			},
+			{
+				"name": "Mumble",
+				"url": "https://mumble.sourceforge.net/",
+				"explanation": "For positional and directional in-game voice chat"
+			},
+			{
+				"name": "Wiki.js",
+				"url": "https://js.wiki",
+				"explanation": "For wiki-like community guides and documentation"
+			}
+		]
+	},
+	{
+		"id": "rawbackup",
+		"title": "Twitch Archive",
+		"description": "Moderation and maintenance of YouTube channel for Twitch Archive",
+		"description_long": "[RAWBackup](https://vods.rawb.tv) is the YouTube channel where I upload and maintain [rawb](https://twitch.tv/rawb)'s Twitch streams.<br>I'm using a custom command line script that downloads the vods from Twitch and uploads them to YouTube, already with some default tags and release schedule. Then, I manually fill out the content-specific tags and playlists and, if I have time, add timestamps to noteworthy moments to the description. Having this channel has proven very valuable to the community since it's very easy to find and reminisce about past jokes and other fun moments.",
+		"icons": ["docker", "youtube", "ffmpeg"],
+		"color": "206, 26, 25",
+		"images": [{ "file": "youtube.png", "caption": "YouTube Channel" }],
+		"technologies": [
+			{
+				"name": "Docker",
+				"url": "https://www.docker.com",
+				"explanation": "For containerization"
+			},
+			{
+				"name": "youtube-dl",
+				"url": "https://ytdl-org.github.io/youtube-dl/",
+				"explanation": "Command-line program for downloading vods from Twitch"
+			},
+			{
+				"name": "FFmpeg",
+				"url": "https://www.ffmpeg.org",
+				"explanation": "For video conversion and cutting"
+			},
+			{
+				"name": "youtube-upload",
+				"url": "https://github.com/tokland/youtube-upload",
+				"explanation": "Command-line script to upload vods to YouTube via their [API](https://developers.google.com/youtube/v3)"
+			}
+		]
+	},
+	{
+		"id": "mlmmo",
+		"title": "MLMMO Overlay",
+		"description": "Remote-controlled stream overlay for live stream producers",
+		"description_long": "This project has 3 main parts: The <b>overlay</b>, the <b>web server</b>, and the <b>producer client</b>.<br>The Overlay is an html page with a transparent background and several stacked video players to play transparent videos and music. After live broadcasters add this to their streams, it connects to the server using a web socket and waits for commands to pre-load/play videos.<br>The Server manages rooms, authenticates overlays, and clients and forwards video commands to the right overlay(s). It accepts requests through an HTTP API, or from a producer web interface through socket connections.<br>The producer clients can be anything from hardware-buttons that send specific requests to the API to a web interface with easy controls for play/pause, etc. I coded a small [Wox](http://wox.one) plugin for basic video/music control.",
+		"icons": ["nodejs", "typescript", "python", "obs", "docker"],
+		"color": "255, 38, 164",
+		"images": [
+			{
+				"file": "presentation.gif",
+				"caption": "Wox plugin & video demonstration"
+			}
+		],
+		"technologies": [
+			{
+				"name": "Docker",
+				"url": "https://www.docker.com",
+				"explanation": "For containerization"
+			},
+			{
+				"name": "Node.js",
+				"url": "https://nodejs.org/en/",
+				"explanation": "Runtime for JavaScript/Typescript parts"
+			},
+			{
+				"name": "socket.io",
+				"url": "https://socket.io",
+				"explanation": "For sending real-time commands through a web server"
+			},
+			{
+				"name": "OBS Studio",
+				"url": "https://obsproject.com",
+				"explanation": "Embedding the HTML page into livestreams"
+			},
+			{
+				"name": "Custom Wox plugin",
+				"url": "",
+				"explanation": "Custom plugin for the [Wox Launcher](http://wox.one) to send video and audio play commands to the server"
+			}
+		]
+	},
+	{
+		"id": "portfolio",
+		"title": "Portfolio",
+		"description": "This portfolio website and a collection of my projects",
+		"description_long": "I used this project to try out Vue.js and to present my free-time projects and technologies online. Also using GitHub Actions for continuous deployment",
+		"icons": ["vue", "typescript", "github"],
+		"color": "15, 189, 230",
+		"images": [
+			{ "file": "homepage.png", "caption": "Homepage" },
+			{ "file": "projects.png", "caption": "Project list" },
+			{ "file": "recursion.png", "caption": "This page" }
+		],
+		"technologies": [
+			{
+				"name": "Vue.js",
+				"url": "https://vuejs.org",
+				"explanation": "JS/TS Framework for building the website"
+			},
+			{
+				"name": "GitHub Actions",
+				"url": "https://github.com/features/actions",
+				"explanation": "For automatic deployment to my server"
+			}
+		]
+	},
+	{
+		"id": "sharex",
+		"title": "ShareX Uploader",
+		"description": "Custom file uploader for ShareX",
+		"description_long": "This is a php script that receives files from (authenticated) [ShareX](https://getsharex.com) clients, stores them on the web server, and returns their URL to the user. This made taking and sharing screenshots and gifs way easier, doesn't require trust in a third party like Imgur, and also supports large files of any type.<br>I also coded a small [Wox](http://wox.one) plugin to delete stuff from the server that doesn't need to be public anymore.",
+		"icons": ["docker", "php", "python", "ffmpeg"],
+		"color": "2, 200, 27",
+		"images": [{ "file": "context.png", "caption": "Context Menu Integration" }],
+		"technologies": [
+			{
+				"name": "Docker",
+				"url": "https://www.docker.com",
+				"explanation": "For containerization"
+			},
+			{
+				"name": "ShareX",
+				"url": "https://getsharex.com",
+				"explanation": "Client-side application for capturing and editing screenshots"
+			},
+			{
+				"name": "Custom Wox plugin",
+				"url": "",
+				"explanation": "Custom plugin for the [Wox Launcher](http://wox.one) to schedule deletion of files and images"
+			}
+		]
+	},
+	{
+		"id": "yourls",
+		"title": "YOURLS URL Shortener",
+		"description": "Self-hosted URL shortener",
+		"description_long": "Simple URL shortener that was very easy to set up in a php container. It has a neat API that I integrated into our [Discord bot](/projects/discordbot), [ShareX](https://getsharex.com), and a custom [Wox](http://wox.one) plugin that can shorten links with a button press.",
+		"icons": ["docker", "php", "python"],
+		"color": "67, 147, 187",
+		"images": [
+			{ "file": "interface.png", "caption": "YOURLS Web Interface" },
+			{ "file": "traffic.png", "caption": "Traffic Statistics" },
+			{ "file": "discord.png", "caption": "Discord Bot Integration" }
+		],
+		"technologies": [
+			{
+				"name": "Docker",
+				"url": "https://www.docker.com",
+				"explanation": "For containerization"
+			},
+			{
+				"name": "YOURLS",
+				"url": "https://yourls.org/#About",
+				"explanation": "Self-hosted URL shortener"
+			},
+			{
+				"name": "API Integrations",
+				"url": "",
+				"explanation": "[YOURLS API](https://yourls.org/#API) allows easy integration into [Discord Bot](/projects/discordbot) and [ShareX](https://getsharex.com)"
+			}
+		]
+	},
+	{
+		"id": "emotecounter",
+		"title": "Stream Emote Counter",
+		"description": "Small application for counting chat emotes during a live show",
+		"description_long": "This is a small program I put together in a day that simply kept track emote usage during one specific live show (The finale of the Sneakymon Anime during the [The Robert Moran Christmas Special 2020](https://www.youtube.com/watch?v=h9m-APJY-0I&t=10h42m50s)). It did it's job well and will be re-purposed for other fun stuff in the future.",
+		"icons": ["javascript", "electron", "twitch"],
+		"color": "116, 94, 98",
+		"images": [{ "file": "emotecounter.png", "caption": "Counter GUI" }],
+		"technologies": [
+			{
+				"name": "Electron",
+				"url": "https://www.electronjs.org",
+				"explanation": "For creating GUI and executable"
+			},
+			{
+				"name": "tmi.js",
+				"url": "https://github.com/tmijs/tmi.js",
+				"explanation": "JavaScript wrapper for the Twitch IRC api"
+			}
+		]
+	},
+	{
+		"id": "videoediting",
+		"title": "Video Editing",
+		"description": "Small, fun video editing jobs and memes",
+		"description_long": "Every now and then I've dabbled in video editing - my [YouTube channel](https://youtube.com/danidipp) is home to the one or other result of this experimentation.<br>But one of my largest projects with over 2 weeks of work was [Episode 9 of the Sneakymon Anime](https://www.youtube.com/watch?v=h9m-APJY-0I&t=5h40m25s). This was a massive community project; involving well over 30 members and producing 14 episodes of a fun, knock-off Pokémon show. For this episode specifically, my fellow community members worked on recording voice, sound effects, and background/puppet design and animations and I put that all together, added visual effects, and learned a ton in the process.",
+		"icons": ["video-editing"],
+		"color": "248, 203, 48",
+		"images": [
+			{ "file": "sneakymon.gif", "caption": "Sneakymon Episode 9" },
+			{ "file": "greenscreen.gif", "caption": "Green Screen Experiments" }
+		],
+		"technologies": [
+			{
+				"name": "FXhome Hitfilm Pro",
+				"url": "https://fxhome.com/product/hitfilm-pro",
+				"explanation": "Used for visual effects & composition"
+			},
+			{
+				"name": "MAGIX Vegas Pro 14",
+				"url": "https://www.vegascreativesoftware.com/us/vegas-pro/",
+				"explanation": "Used for cutting & audio synchronization"
+			},
+			{
+				"name": "FFmpeg",
+				"url": "https://www.ffmpeg.org",
+				"explanation": "For media conversion"
+			},
+			{
+				"name": "Audacity",
+				"url": "https://www.audacityteam.org",
+				"explanation": "Used for recording, mixing, & cutting audio"
+			}
+		]
+	},
+	{
+		"id": "twitchrelay",
+		"title": "Twitch Relay",
+		"description": "Forwarding Twitch chat messages to Redis streams for further processing",
+		"description_long": "As part of my experimentation with micro services and event-driven architecture, I set up this small Go app that collects user messages and system announcements from the Twitch IRC API and sends them to Redis Streams for other services to evaluate and react to.<br>Like all of my current projects, this is using GitHub Actions for continuous deployment",
+		"icons": ["go", "redis", "twitch", "github", "docker"],
+		"color": "2, 200, 27",
+		"images": [],
+		"technologies": [
+			{
+				"name": "Docker",
+				"url": "https://www.docker.com",
+				"explanation": "For containerization"
+			},
+			{
+				"name": "Redis",
+				"url": "https://redis.io",
+				"explanation": "Redis streams for event distribution"
+			},
+			{
+				"name": "GitHub Actions",
+				"url": "https://github.com/features/actions",
+				"explanation": "For automatic compilation and deployment to my server"
+			}
+		]
+	},
+	{
+		"id": "hermatrix",
+		"title": "Hermatrix ARG",
+		"description": "Alternate Reality Game to promote community engagement for a Minecraft YouTube series.",
+		"description_long": "As part of [Docm77](https://youtube.com/docm77)'s and [Rendog](https://youtube.com/rendog)'s Minecraft series on YouTube, this alternate reality game promotes community interest and engagement with riddles, puzzles and minigames across various multi-media domains.<br>The latest event, a public Minecraft event on 2021-09-04 had over 400 active participants and thousands of livestream viewers over 4 hours.",
+		"icons": ["docker", "gitlab", "nodejs", "typescript", "minecraft"],
+		"color": "124, 0, 178",
+		"images": [
+			{
+				"file": "website.gif",
+				"caption": "Website Homepage"
+			},
+			{
+				"file": "asteroids.gif",
+				"caption": "Asteroids Minigame"
+			},
+			{
+				"file": "minecraft.png",
+				"caption": "Minecraft Event (2021-09-04)"
+			},
+			{
+				"file": "players.jpg",
+				"caption": "Minecraft Event Group Photo"
+			}
+		],
+		"technologies": [
+			{
+				"name": "Docker",
+				"url": "https://www.docker.com",
+				"explanation": "For containerization"
+			},
+			{
+				"name": "GitLab CI/CD",
+				"url": "https://docs.gitlab.com/ee/ci/",
+				"explanation": "For continuous deployment"
+			},
+			{
+				"name": "Node.js",
+				"url": "https://nodejs.org",
+				"explanation": "Majority of server-side logic"
+			},
+			{
+				"name": "Socket.io",
+				"url": "https://socket.io/",
+				"explanation": "Real-time communication between clients and server"
+			},
+			{
+				"name": "Google Analytics",
+				"url": "https://analytics.google.com/analytics/web/",
+				"explanation": "For tracking user engagement"
+			},
+			{
+				"name": "Minecraft",
+				"url": "https://minecraft.net",
+				"explanation": "Minecraft server (also containerized) for community events"
+			}
+		]
+	},
+	{
+		"id": "serverrender",
+		"title": "Video Rendering API",
+		"description": "Server-side rendering of small, transparent videos on‑the‑fly for live stream overlay",
+		"description_long": "When this application receives a web request, it parses the URL parameters and uses them to create a custom images sequence which is stitched together to a video by ffmpeg and sent back in the response. The video is also cached to instantly reply to future requests with the same parameters.",
+		"icons": ["typescript", "deno", "ffmpeg", "github", "docker"],
+		"color": "194, 69, 131",
+		"images": [],
+		"technologies": [
+			{
+				"name": "Deno",
+				"url": "https://deno.land",
+				"explanation": "Trying out Deno instead of [node.js](https://nodejs.org)"
+			},
+			{
+				"name": "Typescript",
+				"url": "https://www.typescriptlang.org",
+				"explanation": "For type-safe code"
+			},
+			{
+				"name": "FFmpeg",
+				"url": "https://www.ffmpeg.org",
+				"explanation": "Conversion of image-sequences to transparent videos"
+			},
+			{
+				"name": "GitHub Actions",
+				"url": "https://github.com/features/actions",
+				"explanation": "For automatic compilation and deployment to my server"
+			},
+			{
+				"name": "Docker",
+				"url": "https://www.docker.com",
+				"explanation": "For containerization"
+			}
+		]
+	},
+	{
+		"id": "sm-render",
+		"title": "Sneaky Mouse Render",
+		"description": "Automates the task of rendering community avatars",
+		"description_long": "The Sneaky Mouse is a community avatar and each member can equip theirs with a wide variety of hats. This client-side app queries the database for the latest data, renders the requested member's mouse using the HTML5 Canvas API, and saves them as .png's for further video editing.<br>Check it out at https://sneaky-mouse-render.sneakyrp.com",
+		"icons": ["svelte", "typescript", "docker"],
+		"color": "254, 174, 1",
+		"images": [
+			{
+				"file": "smotd.png",
+				"caption": "Sneaky Mouse of the Day"
+			}
+		],
+		"technologies": [
+			{
+				"name": "Svelte",
+				"url": "https://svelte.dev",
+				"explanation": "For client-side rendering"
+			},
+			{
+				"name": "TypeScript",
+				"url": "https://www.typescriptlang.org",
+				"explanation": "Used together with Svelte"
+			},
+			{
+				"name": "Docker",
+				"url": "https://www.docker.com",
+				"explanation": "For containerization"
+			}
+		]
+	},
+	{
+		"id": "wiki",
+		"title": "Community Wikis",
+		"description": "Self-hosted online wikis for various areas of my communities",
+		"description_long": "I'm hosting a few instances of the [Wiki.js](https://js.wiki) software so my communities have a place to put guides, tutorials and general infos about our collective projects.<br>It uses Oauth2 with [Discord](https://discord.com) for authentication and [GitHub](https://github.com) for persistance and version control.",
+		"icons": ["wikijs", "docker", "github"],
+		"color": "5, 183, 238",
+		"images": [
+			{
+				"file": "homepage.png",
+				"caption": "SneakyRP Homepage"
+			},
+			{
+				"file": "shaders.png",
+				"caption": "Communtiy-written page"
+			},
+			{
+				"file": "github.png",
+				"caption": "GitHub for persistence and version control"
+			}
+		],
+		"technologies": [
+			{
+				"name": "Wiki.js",
+				"url": "https://js.wiki",
+				"explanation": "The Software that's used to bring the wikis to life"
+			},
+			{
+				"name": "Discord",
+				"url": "https://discord.com",
+				"explanation": "For OAuth2 authentication"
+			},
+			{
+				"name": "GitHub",
+				"url": "https://github.com",
+				"explanation": "For persistence and version control"
+			},
+			{
+				"name": "Docker",
+				"url": "https://www.docker.com",
+				"explanation": "For containerization"
+			}
+		]
+	},
+	{
+		"id": "htlnoodlebot",
+		"title": "HTL Noodle Bot",
+		"description": "Telegram bot that accepts and organizes orders so it's easy to call the noodle place",
+		"description_long": "In school, my friends and I regularly ordered noodles every thursday during lunch break. When other class mates and even parallel classes joined in, it became a lot of work to manage, so we wrote this Telegram bot to manage it for us.<br>Users could place an order with the bot in the morning and pay us in the first break, and we could just call the noodle place and read off the list of orders to be delivered during lunch break.<br><br>On one occasion, we had 31 orders totalling 194,30 €!",
+		"icons": ["csharp", "telegram"],
+		"color": "231, 224, 170",
+		"images": [
+			{
+				"file": "menu.png",
+				"caption": "Menu Categories"
+			},
+			{
+				"file": "orders.png",
+				"caption": "Compiled and sorted orders"
+			}
+		],
+		"technologies": [
+			{
+				"name": "C#",
+				"url": "https://docs.microsoft.com/en-us/dotnet/csharp/",
+				"explanation": "First experimentation with Dotnet and C#"
+			},
+			{
+				"name": "Telegram",
+				"url": "https://telegram.org",
+				"explanation": "For communication with the bot"
+			}
+		]
+	},
+	{
+		"id": "buzzed",
+		"title": "Buzzed (Graduation Project)",
+		"description": "Multiplayer quiz game for language studies",
+		"description_long": "This was my graduation project at [HTL Mössingerstraße](https://www.htl-klu.at) (specialization area Electronics and Technical Computer Science). While my partner built four hardware controls with wireless chips, I built the game software and logic.<br>The game is a quiz game with multiple choice questions. Players compete against each other in a quiz game that's focused on language studies in a classroom setting.",
+		"icons": ["csharp"],
+		"color": "223, 33, 7",
+		"images": [
+			{
+				"file": "projector.jpg",
+				"caption": "Buzzed software projected in a classroom"
+			},
+			{
+				"file": "buzzer.jpg",
+				"caption": "Wireless remote control hardware with buttons"
+			}
+		],
+		"technologies": [
+			{
+				"name": "C#",
+				"url": "https://docs.microsoft.com/en-us/dotnet/csharp/",
+				"explanation": "First experimentation with Dotnet and C#"
+			},
+			{
+				"name": "Windows Presentation Foundation",
+				"url": "https://docs.microsoft.com/en-us/dotnet/framework/wpf/",
+				"explanation": "For the UI"
+			}
+		]
+	}
+]
